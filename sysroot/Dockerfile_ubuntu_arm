@@ -1,7 +1,7 @@
 # Copyright (c) 2018, ARM Limited.
 # SPDX-License-Identifier: Apache-2.0
 
-ARG ARM_ARCH=arm64v8
+ARG ARM_ARCH=arm32v7
 FROM ${ARM_ARCH}/ubuntu:bionic
 
 COPY ./qemu-user-static/* /usr/bin/
